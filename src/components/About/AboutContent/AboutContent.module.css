@@ -1,0 +1,29 @@
+.AboutContent {
+  display: grid;
+  max-width: 60%;
+  margin-top: 128px;
+}
+
+.AboutImage {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.AboutTextTop {
+  grid-row: 1;
+  grid-column: 2;
+  margin-left: 32px;
+}
+
+.AboutTextBottom {
+  grid-column: 1 /3;
+  grid-row: 2;
+  margin-left: 16px;
+  text-align: center;
+}
+
+.AboutTitle {
+  grid-row: 1;
+  grid-column: 2;
+  margin-left: 32px;
+}
