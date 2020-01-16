@@ -1,0 +1,23 @@
+.Contact {
+  display: grid;
+  max-width: 60%;
+  margin: 128px auto;
+}
+
+.Title {
+  grid-row: 1;
+}
+
+.Form {
+  display: flex;
+  grid-row: 2;
+  flex-direction: column;
+}
+
+.LastName {
+  align-self: flex-end;
+  max-width: 40%;
+}
+.Name {
+  max-width: 40%;
+}
