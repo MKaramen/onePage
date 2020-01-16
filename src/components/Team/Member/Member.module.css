@@ -1,5 +1,6 @@
 .Member {
   display: grid;
+  max-width: 45%;
 }
 
 .Image {

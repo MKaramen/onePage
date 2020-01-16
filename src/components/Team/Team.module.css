@@ -1,5 +1,5 @@
 .Team {
-  margin: auto;
+  margin: 128px auto;
   max-width: 60%;
   display: grid;
 }
@@ -11,9 +11,11 @@
 .Row1 {
   grid-row: 2;
   display: flex;
+  justify-content: space-between;
 }
 
 .Row2 {
   grid-row: 3;
   display: flex;
+  justify-content: space-between;
 }
