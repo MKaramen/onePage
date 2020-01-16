@@ -1,15 +1,23 @@
 .Title {
-  background: red;
+  background: #af0102;
   padding: 4px 0px;
   text-align: center;
+  margin-top: 0;
+  color: white;
 }
 
 .Description {
   text-align: justify;
+  padding: 0px 16px;
+}
+
+.Date {
+  color: rgb(73, 145, 204);
 }
 
 .Warp {
-  max-width: 250px;
+  max-width: 200px;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .Center {
