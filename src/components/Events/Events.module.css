@@ -1,10 +1,21 @@
 .Title {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .Wrap {
   max-width: 60%;
   margin: auto;
+}
+
+.Events {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Clock {
+  width: 200px;
 }
