@@ -9,7 +9,7 @@ const AboutContent = () => (
   <div className={styles.Content}>
     <img className={styles.Image} src={BeerImage} alt="28 beers" />
     <div className={styles.Right}>
-      <Title className={styles.Title}>Who we are...</Title>
+      <h1 className={styles.Title}>Who we are...</h1>
       <p className={styles.TextTop}>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, asperiores
         deserunt temporibus animi itaque inventore consequatur! Unde quisquam
