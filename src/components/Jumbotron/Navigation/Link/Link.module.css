@@ -1,0 +1,9 @@
+.Link {
+  color: white;
+  margin: 8px;
+  text-decoration: none;
+}
+
+.Li {
+  list-style-type: none;
+}

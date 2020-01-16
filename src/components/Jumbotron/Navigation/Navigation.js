@@ -4,7 +4,7 @@ import Link from "./Link/Link";
 
 const Navigation = props => (
   <React.Fragment>
-    <ul>
+    <ul className={styles.Navigation}>
       <Link link="#">About</Link>
       <Link link="#">Team</Link>
       <Link link="#">Events</Link>
