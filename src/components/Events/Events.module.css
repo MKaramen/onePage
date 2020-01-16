@@ -1,0 +1,10 @@
+.Title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Wrap {
+  max-width: 60%;
+  margin: auto;
+}

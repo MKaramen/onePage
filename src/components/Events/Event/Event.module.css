@@ -1,0 +1,17 @@
+.Title {
+  background: red;
+  padding: 4px 0px;
+  text-align: center;
+}
+
+.Description {
+  text-align: justify;
+}
+
+.Warp {
+  max-width: 250px;
+}
+
+.Center {
+  text-align: center;
+}
