@@ -1,8 +1,37 @@
 .Content {
   display: grid;
+  max-width: 60%;
+  margin-top: 128px;
 }
 
 .Image {
   grid-column: 1;
+  grid-row: 1;
+}
+
+.Right {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 48px;
+}
+
+.TextTop {
+  text-align: justify;
+}
+.TextBottom {
+  grid-column: 1/3;
   grid-row: 2;
+  text-align: justify;
+}
+
+.Title {
+  font-weight: 100;
+  font-size: 48px;
+  font-family: "Comfortaa-Regular";
+  text-decoration: underline #af0102;
+  text-underline-position: under;
+  margin-top: 64px;
 }
