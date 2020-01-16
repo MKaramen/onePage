@@ -1,0 +1,32 @@
+.Member {
+  display: grid;
+  max-width: 45%;
+}
+
+.Image {
+  grid-column: 1/2;
+  justify-self: center;
+  align-self: center;
+  height: 112px;
+  width: 112px;
+}
+
+.Right {
+  grid-column: 2;
+  display: flex;
+  flex-flow: column;
+}
+
+.Label {
+  background-color: #af0102;
+  width: 15%;
+  color: white;
+  padding: 4px 8px;
+  margin-bottom: 8px;
+}
+
+.Text {
+  margin: 0;
+  font-size: 12px;
+  color: gray;
+}
