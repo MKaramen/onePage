@@ -1,0 +1,19 @@
+.Team {
+  margin: auto;
+  max-width: 60%;
+  display: grid;
+}
+
+.Title {
+  grid-row: 1;
+}
+
+.Row1 {
+  grid-row: 2;
+  display: flex;
+}
+
+.Row2 {
+  grid-row: 3;
+  display: flex;
+}
